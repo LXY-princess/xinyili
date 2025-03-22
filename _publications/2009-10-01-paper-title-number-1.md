@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Deft: A novel deep framework for fuzz testing performance evaluation in nextg vulnerability detection"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'As the evolution of wireless communications advances rapidly, the next-generation (NextG) networks have undeniably become integral components of modern society. However, given the vast infrastructure requirement and the intricacy of their protocols, they inevitably present considerable security challenges. Recently, fuzz testing has emerged as a prominent method of security assurance for 5G and NextG systems. It can test and exploit 5G networks to detect vulnerabilities. This paper proposes a novel modeling framework, coined as DEFT, to perform causation analysis in the system under test (SUT) in detecting the fuzzed location, therefore, DEFT can be further applied to identifying the type of attacks or abnormal inputs from the partial system profiling for the impacted behaviors. In particular, we show, for the first time, that by utilizing the DEFT, we can precisely detect the fuzzed layer in the log file which can then be further utilized to identify the root cause of vulnerabilities with high accuracy using only a tiny segment of the log file in real-time. To test the DEFT, we generate an unbiased dataset by performing fuzz testing to trigger potential vulnerabilities and unintended behaviors on the 5G test bed and recording the system behaviors via regular logging information. We then analyze a random segment of the log files to detect the root cause of the vulnerabilities via the processing of the word embedding vectors that are enabled by two architectures, Skip-gram and continuous bag-of-words (CBOW). The DEFT can effectively identify the fuzzed location and thereby the occurrence of unknown attacks, therefore, can be considered a crucial step in performing a timely attack response and the root cause analysis. We assess multiple machine learning models integrated with the two architectures by the input segment length of log files, computation complexity, and accuracy matrix. It is shown that, for the Skip-gram, an area under the curve (AUC) value of 0.938 is achieved for the Fully Connected Network (FCN) model while considering only 50% length of the original log file, thereby significantly reducing the computational complexity. By eliminating the necessity for a 100% comprehensive log file and instead utilizing a 50% log file, we have effectuated an 8% decrease in testing duration. We make an important observation that, compared with CBOW, Skip-gram shows superior performance when only a smaller fraction of the log file is considered for vulnerability detection and, thereby, can readily be applied to real-time 5G applications.'
+date: 2023-10-20
+venue: 'IEEE Access'
+slidesurl: 'https://ieeexplore.ieee.org/abstract/document/10288487'
+citation: 'Y. Peng, X. Li, S. Arya and Y. Wang, "DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection," in IEEE Access, vol. 11, pp. 116046-116064, 2023, doi: 10.1109/ACCESS.2023.3326411.'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
